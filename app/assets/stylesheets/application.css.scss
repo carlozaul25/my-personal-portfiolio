@@ -55,11 +55,10 @@ p, ul, ol {
 
 hr {
 		width: 3em;
-		display: block;
 		height: 2px;
 		border: 0;
 		border-top: 2px solid $highlight;
-		margin: 2rem 0;
+
 	}
 
 .wrapper {
@@ -172,6 +171,19 @@ input[type='submit'] {
 		color: $highlight;
 	}
 }
+.project_button {
+	background: $highlight;
+	color: white;
+	text-decoration: none;
+	padding: 1em 2em;
+}
+
+.button_wrapper {
+	margin: 4em 0 0 0;
+	text-align: center;
+}
+
+
 
 
 @import 'welcome';
