@@ -4,4 +4,7 @@ class WelcomeController < ApplicationController
 		@projects = Project.all.limit(3).order("created_at desc")
 	end
 
+	def home
+	end
+
 end

@@ -2,17 +2,26 @@
  
 
 $dark: #424652;
-$light: #9a9da4;
-$highlight: #8bc6db;
-$border:  #E9E9E9;
+$light: #192a56;
+$highlight: yellow;
+$border: #00a8ff;
 
 * {
 	box-sizing: border-box;
 }
 
+#about_me {
+	font-size: 25px;
+	font-family: 'BenchNine', sans-serif;
+}
+
 body{
-font-family: 'Poppins', sans-serif;
-font-family: 'Ubuntu Condensed', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Do Hyeon', sans-serif;
+}
+
+#other_title {
+	text-align: center;
 }
 
 h1, h2, h3, h5, h6, p, ul, li {
@@ -53,13 +62,13 @@ p, ul, ol {
 	margin: 0 0 1.6em;
 }
 
-hr {
-		width: 3em;
-		height: 2px;
-		border: 0;
-		border-top: 2px solid $highlight;
+// br {
+// 		width: 3em;
+// 		height: 2px;
+// 		border: 0;
+// 		border-top: 2px solid $highlight;
 
-	}
+// 	}
 
 	.hidden {
 		Display: none;
@@ -86,10 +95,12 @@ clear: both;
 
 #main_navigation {
 	padding: 2.5em 7%;
-	border-bottom: 1px solid $border;
+	border-bottom: .1px solid $border;
+	font-size: 20px;
+	font-family: 'Play', sans-serif;
 .name {
-	font-weight: 600;
-	font-size: .8em;
+	font-weight: 650;
+	font-size: 1em;
 	letter-spacing: 4px;
 	text-transform: uppercase;
 	border: 1.5px solid $border;	
@@ -126,7 +137,7 @@ clear: both;
 
 #main_footer {
 	padding: 2.5em 5%;
-	border-top: 1px solid $border;
+	// border-top: 1px solid $border;
 	.copyright {
 		position: absolute;
 		left: 3px;

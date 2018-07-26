@@ -1,15 +1,16 @@
+	 <body id='image'>
 	  <% if user_signed_in? %>
 <div class="wrapper wrapper_padding clearfix">
 		<div class='col-1 homepage_content'>
 			<h2>About me</h2>
-			<hr>
-			<p>
-			about me bla blah 
+			<br>
+			<p id='about_me'>
+			Web developer aspiring to create a career in the tech industry, I began as a self-taught programmer and with the desire to expand my skills decided to enroll at NYCDA code & design academy. Now as a proud graduate I am Able to complete projects efficiently and deliver creative user- friendly websites. I am currently seeking to apply my knowledge in a professional work environment and contribute hard work and determination that leads to success and growth.
 			</p>
 		</div>
 		<div class='col-2 homepage_content'>
 			<h2>My posts</h2>
-			<hr>
+			<br>
 
 			<% @posts.each do |post| %>
 			<h3><a href="#"> <%=link_to post.title, post %> </a></h3>
@@ -26,7 +27,8 @@
 	</div>
 	<%end%>
 
-	<div id='main_title'>
+
+<!-- 	<div id='main_title'>
 		<h1>Welcome to Portfo, a site to showcase your work! </h1>
 	</div>
 	
@@ -40,6 +42,7 @@
 	<br>
 	<%= link_to "Sign Up",  new_user_registration_path %>
 	</div>
+	</body>
+ -->
 
 
-	

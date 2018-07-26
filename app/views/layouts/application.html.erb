@@ -4,6 +4,8 @@
  <head>
   <title>Carlos Portfolio</title>
 <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Baloo+Thambi|Patua+One" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Oswald|Play" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=BenchNine" rel="stylesheet">
 <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 </head>
     <%= csrf_meta_tags %>
@@ -15,6 +17,9 @@
         <% if user_signed_in? %>
     <header id='main_navigation' class='clearfix'>
       <%= link_to "Carlos Rivera", root_path, class: 'name' %>
+        <div id='other_title'>
+      <h1>Portfo, a site to show your work</h1>
+      </div>
     <nav>
       <%= link_to "Articles", posts_path %>
       <%= link_to "Projects", projects_path %>
