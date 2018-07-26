@@ -1,9 +1,9 @@
 @import 'normalize';
  
 
-$dark: #424652;
-$light: #192a56;
-$highlight: yellow;
+$dark: #182C61;
+$light: #3742fa;
+$highlight: #EAB543;
 $border: #00a8ff;
 
 * {
@@ -14,7 +14,7 @@ $border: #00a8ff;
 	 display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 20%;
 }
 
 #about_me {
@@ -137,10 +137,10 @@ clear: both;
 
 	#page_title {
 		text-align: center;
-		border-bottom: 4px solid $border;
 		padding: 3em 0;
-		font-size: 17px;
+		font-size: 25px;
 		text-transform: uppercase;
+		color: red;
 	}
 
 	.skinny_wrapper {
@@ -203,7 +203,7 @@ input[type='submit'] {
 }
 .project_button {
 	background: $highlight;
-	color: white;
+	color: black;
 	text-decoration: none;
 	padding: 1em 2em;
 }
@@ -212,6 +212,46 @@ input[type='submit'] {
 	margin: 4em 0 0 0;
 	text-align: center;
 }
+
+#project_bg {
+	background-image: image-url('create.jpg'); 
+ 	background-repeat: no-repeat;
+  	height: 100%; 
+  	background-position: center;
+    background-size: cover;
+}
+
+#post_bg {
+	background-image: image-url('pexel.jpg'); 
+ 	background-repeat: no-repeat;
+  	height: 100%; 
+  	background-position: center;
+    background-size: cover;
+}
+
+#project_show_bg {
+	background-image: image-url('lap.jpg'); 
+ 	background-repeat: no-repeat;
+  	height: 50%; 
+  	background-position: center;
+    background-size: cover;
+}
+
+#google {
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+#contact_bg {
+	background-color: #17c0eb;
+}
+
+#project_title {
+	color: black;
+}
+
 
 
 

@@ -1,14 +1,14 @@
-
+	<body id='project_show_bg'>
 <div id='post_show_content' class='skinny_wrapper'>
 		<header>
-			<p class='date'><%= @project.created_at.strftime("%A, %b %d")%> </p>
-			<h1><%= @project.title %></h1><hr>
+			<p class='date'><%= @project.created_at.strftime("%A, %b %d")%></p>
+			<h1><%= @project.title %></h1><br>
 		</header>
 
 		<div id='content'>
 			<%= markdown @project.description %>
 			<div id=img>
-			<%= image_tag @project.image.url(:medium) %>
+			<%= image_tag @project.image.url(:large) %>
 			</div>
 			
 			<div class='button_wrapper'>
@@ -22,5 +22,6 @@
 		<%= link_to "Delete", project_path(@project), method: :delete, data: {confirm: "Are you sure?"}%>
 			</div>
 			<% end %>
-		<hr>
+		<br>
 	</div>
+	</body>

@@ -1,15 +1,17 @@
 #post_wrapper {
-	padding: 3em 0;
+	padding: 1em 0;
 	.post {
 		text-align: center;
+		font-size: 10px;
 		.date {
 			font-size: .9em;
-			margin: 0;
+			// margin: 0;
 					}
 		h2 {
-			margin: 0;
-			font-size: 2em;
+			// margin: 0;
+			font-size: 3em;
 			text-transform: uppercase;
+			color: red;
 			a {
 				text-decoration: none;
 				color: $dark;
@@ -58,6 +60,8 @@
 		}
 		h1 {
 			margin: 0;
+			font-family: 'BenchNine', sans-serif;
+			color: red;
 		}
 
 	}

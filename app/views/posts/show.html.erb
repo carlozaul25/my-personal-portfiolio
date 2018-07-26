@@ -2,7 +2,7 @@
 <div id='post_show_content' class='skinny_wrapper'>
 		<header>
 			<p class='date'><%= @post.created_at.strftime("%A, %b %d")%> </p>
-			<h1><%= @post.title %></h1><hr>
+			<h1><%= @post.title %></h1><br>
 		</header>
 
 		<div id='content'>
@@ -16,7 +16,7 @@
 			</div>
 		<% end %>
 
-		<hr>
+		<br>
 		
 		<div id='share_box'>
 			<h4>Share: <%= @post.title %></h4>
@@ -24,7 +24,7 @@
 		<a href="#"><i class="fab fa-github"></i></a>
 		<a href="#"><i class="fab fa-linkedin"></i></a>
 		</div>
-		<hr>
+		<br>
 
 		<%= render 'disqus' %>
 	</div>

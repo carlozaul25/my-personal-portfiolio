@@ -1,10 +1,10 @@
+<body id='post_bg'>
 	<h1 id='page_title'>My posts</h1>
-
 	<div id='write_art'>
 	<%= link_to "Write an article",  new_post_path %>
 	</div>
 	<div id='post_wrapper' class='skinny_wrapper'>
-		<% @post.each do |post| %><br>
+		<% @post.each do |post| %>
 		<div class='post'>
 			<p class= 'date'><%= post.created_at.strftime("%A, %b %d") %></p>
 			<h2><a href="#"><%= link_to post.title, post %> </a></h2>
@@ -19,3 +19,4 @@
 <%= will_paginate @post %>
 
 
+</body>
