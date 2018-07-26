@@ -61,9 +61,9 @@
 		}
 
 	}
-	// hr {
-	// 		margin: 2em auto;
-	// 	}
+	hr {
+			margin: 2em auto;
+		}
 }
 
 /* Pagination links */
@@ -74,6 +74,22 @@
 //     text-decoration: none;
 //     transition: background-color .3s;
 // }
+
+#admin_links {
+	border-top: 1px solid $border;
+	border-bottom: 1px solid $border;
+	text-align: center;
+	padding: 1em 0;
+	margin: 3em 0;
+	a {
+		color: $light;
+		margin: 0 1em;
+		font-weight: 700;
+		font-size: .8em;
+		text-transform: uppercase;
+		text-decoration: none;
+	}
+}
 
 /* Style the active/current link */
 .pagination a.active {
