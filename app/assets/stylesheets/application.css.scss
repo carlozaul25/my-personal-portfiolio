@@ -10,9 +10,24 @@ $border: #00a8ff;
 	box-sizing: border-box;
 }
 
+#img {
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 #about_me {
 	font-size: 25px;
 	font-family: 'BenchNine', sans-serif;
+}
+
+#create_pro {
+	text-align: center;
+}
+
+#write_art {
+	text-align: center;
 }
 
 body{
@@ -122,9 +137,9 @@ clear: both;
 
 	#page_title {
 		text-align: center;
-		border-bottom: 10px solid $border;
+		border-bottom: 4px solid $border;
 		padding: 3em 0;
-		font-size: 1rem;
+		font-size: 17px;
 		text-transform: uppercase;
 	}
 

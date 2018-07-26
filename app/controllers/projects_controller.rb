@@ -47,7 +47,7 @@ before_action :authenticate_user!, except: [:index, :show]
 	end
 
 	def project_params
-		params.require(:project).permit(:title, :description, :link, :slug)
+		params.require(:project).permit(:title, :description, :link, :slug, :image)
 	end
 
 
