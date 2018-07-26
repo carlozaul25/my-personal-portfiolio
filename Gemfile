@@ -26,6 +26,7 @@ gem 'pygments.rb', '~> 1.2', '>= 1.2.1'
 gem 'friendly_id', '~> 5.2', '>= 5.2.4'
 gem 'will_paginate', '~> 3.1', '>= 3.1.6'
 gem 'mail_form', '~> 1.7', '>= 1.7.1'
+gem 'devise', '~> 4.4', '>= 4.4.3'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
